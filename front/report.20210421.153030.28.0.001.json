@@ -1,0 +1,297 @@
+
+{
+  "header": {
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20210421.153030.28.0.001.json",
+    "dumpEventTime": "2021-04-21T15:30:30Z",
+    "dumpEventTimeStamp": "1619019030291",
+    "processId": 28,
+    "cwd": "/app",
+    "commandLine": [
+      "/usr/local/bin/node",
+      "/app/node_modules/.bin/nuxt"
+    ],
+    "nodejsVersion": "v12.5.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "linux",
+    "componentVersions": {
+      "node": "12.5.0",
+      "v8": "7.5.288.22-node.14",
+      "uv": "1.29.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.38.0",
+      "napi": "4",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1c",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v12.5.0/node-v12.5.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.5.0/node-v12.5.0.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "4.19.121-linuxkit",
+    "osVersion": "#1 SMP Thu Jan 21 15:36:34 UTC 2021",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-1068NG7 CPU @ 2.30GHz",
+        "speed": 2300,
+        "user": 29945000,
+        "nice": 0,
+        "sys": 42123000,
+        "idle": 5856478600,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-1068NG7 CPU @ 2.30GHz",
+        "speed": 2300,
+        "user": 29945000,
+        "nice": 0,
+        "sys": 42123000,
+        "idle": 5856478600,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-1068NG7 CPU @ 2.30GHz",
+        "speed": 2300,
+        "user": 29945000,
+        "nice": 0,
+        "sys": 42123000,
+        "idle": 5856478600,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-1068NG7 CPU @ 2.30GHz",
+        "speed": 2300,
+        "user": 29945000,
+        "nice": 0,
+        "sys": 42123000,
+        "idle": 5856478600,
+        "irq": 0
+      }
+    ],
+    "host": "85a061d98589"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+  ],
+  "javascriptHeap": {
+    "totalMemory": 1074667520,
+    "totalCommittedMemory": 1069675400,
+    "usedMemory": 1004665408,
+    "availableMemory": 50133776,
+    "memoryLimit": 1092616192,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 32272,
+        "capacity": 261832,
+        "used": 31960,
+        "available": 229872
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 29593216,
+        "capacity": 16757248,
+        "used": 2035280,
+        "available": 14721968
+      },
+      "old_space": {
+        "memorySize": 526528512,
+        "committedMemory": 526128936,
+        "capacity": 495305544,
+        "used": 494829528,
+        "available": 476016
+      },
+      "code_space": {
+        "memorySize": 3047424,
+        "committedMemory": 2915520,
+        "capacity": 2667584,
+        "used": 2667584,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 31199232,
+        "committedMemory": 30929680,
+        "capacity": 25704720,
+        "used": 25704720,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 478871552,
+        "committedMemory": 478871552,
+        "capacity": 478295696,
+        "used": 478295696,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 1204224,
+        "committedMemory": 1204224,
+        "capacity": 1100640,
+        "used": 1100640,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 16757248,
+        "used": 0,
+        "available": 16757248
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 55.7825,
+    "kernelCpuSeconds": 10.2519,
+    "cpuConsumptionPercent": 65.3806,
+    "maxRss": 1164296192,
+    "pageFaults": {
+      "IORequired": 336,
+      "IONotRequired": 1143736
+    },
+    "fsActivity": {
+      "reads": 154032,
+      "writes": 0
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 31.3188,
+    "kernelCpuSeconds": 7.63336,
+    "cpuConsumptionPercent": 38.5665,
+    "fsActivity": {
+      "reads": 139080,
+      "writes": 0
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "npm_package_devDependencies__nuxtjs_eslint_module": "^1.0.0",
+    "npm_config_version_commit_hooks": "true",
+    "npm_config_user_agent": "yarn/1.16.0 npm/? node/v12.5.0 linux x64",
+    "NODE_VERSION": "12.5.0",
+    "npm_config_bin_links": "true",
+    "HOSTNAME": "85a061d98589",
+    "YARN_VERSION": "1.16.0",
+    "npm_node_execpath": "/usr/local/bin/node",
+    "npm_config_init_version": "1.0.0",
+    "SHLVL": "4",
+    "HOME": "/app",
+    "npm_package_devDependencies_eslint_plugin_nuxt": ">=0.4.2",
+    "npm_package_devDependencies_eslint_config_prettier": "^6.10.0",
+    "npm_config_init_license": "MIT",
+    "YARN_WRAP_OUTPUT": "false",
+    "npm_package_devDependencies__nuxtjs_vuetify": "^1.0.0",
+    "npm_config_version_tag_prefix": "v",
+    "npm_package_devDependencies_husky": "^4.0.0",
+    "npm_package_description": "adowan",
+    "npm_package_readmeFilename": "README.md",
+    "npm_package_dependencies_nuxt": "^2.0.0",
+    "npm_package_devDependencies_prettier": "^1.19.1",
+    "npm_package_scripts_dev": "nuxt",
+    "npm_package_private": "true",
+    "npm_package_scripts_lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "npm_package_scripts_start": "nuxt start",
+    "npm_config_ignore_scripts": "",
+    "npm_config_version": "1.16.0",
+    "PATH": "/tmp/yarn--1619018928495-0.20112096672307866:/app/node_modules/.bin:/usr/local/share/.config/yarn/link/node_modules/.bin:/usr/local/libexec/lib/node_modules/npm/bin/node-gyp-bin:/usr/local/lib/node_modules/npm/bin/node-gyp-bin:/usr/local/bin/node_modules/npm/bin/node-gyp-bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+    "NODE": "/usr/local/bin/node",
+    "npm_package_name": "adowan",
+    "LANG": "C.UTF-8",
+    "npm_package_devDependencies_eslint": "^6.1.0",
+    "npm_package_devDependencies__nuxtjs_eslint_config": "^2.0.0",
+    "npm_lifecycle_script": "nuxt",
+    "npm_package_lint_staged____js_vue_": "yarn lint",
+    "npm_config_version_git_message": "v%s",
+    "HOST": "0.0.0.0",
+    "npm_lifecycle_event": "dev",
+    "npm_package_husky_hooks_pre_commit": "lint-staged",
+    "npm_package_version": "1.0.0",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"dev\"],\"original\":[\"run\",\"dev\"]}",
+    "npm_package_devDependencies_lint_staged": "^10.0.0",
+    "npm_package_scripts_build": "nuxt build",
+    "npm_config_version_git_tag": "true",
+    "npm_config_version_git_sign": "",
+    "npm_package_scripts_generate": "nuxt generate",
+    "npm_config_strict_ssl": "true",
+    "npm_package_devDependencies_eslint_plugin_prettier": "^3.1.2",
+    "PWD": "/app",
+    "npm_execpath": "/opt/yarn-v1.16.0/bin/yarn.js",
+    "npm_package_author_name": "takuya86",
+    "npm_config_save_prefix": "^",
+    "npm_config_ignore_optional": "",
+    "TZ": "Asia/Tokyo",
+    "npm_package_devDependencies_babel_eslint": "^10.0.1",
+    "npm_package_dependencies__nuxtjs_axios": "^5.13.1",
+    "INIT_CWD": "/app",
+    "NODE_ENV": "development",
+    "_applied": "true",
+    "VUE_ENV": "server",
+    "_AXIOS_BASE_URL_": "http://localhost:3000/"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": 65536,
+      "hard": 65536
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 1048576,
+      "hard": 1048576
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": "unlimited"
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "/usr/local/bin/node",
+    "/usr/lib/libstdc++.so.6",
+    "/usr/lib/libgcc_s.so.1",
+    "/lib/ld-musl-x86_64.so.1"
+  ]
+}
