@@ -3,8 +3,8 @@
     <v-row align="center" justify="center">
       <v-col cols="12">
         <v-text-field
-        label="Username"
         v-model="name"
+        label="Username"
         prepend-icon=""
         type="text"
         />
